@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul {
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  direction: none;
+  color: white;
+}
+
+input[type="text"] {
+  width: 80%;
+}
+
+.Post {
+  background-color: #282c34;
+  color: white;
+  margin: 5em;
+}
+
+.Post .like {
+  cursor: pointer;
+  text-align: right;
+}
+
+.Post .like:hover {
+  color: green;
+}
+
+.likes {
+  color: orange;
+  font-size: x-small;
+  margin: 0 .5em;
+  display: block;
+  font-size: 18px;
+}

@@ -1,0 +1,23 @@
+.button {
+  color: white;
+  font-size: 2rem;
+  padding: 1.5rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button.secondary {
+  background-color: transparent;
+  border: 2px solid royalblue;
+}
+
+.button.primary {
+  background-color: royalblue;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: skyblue;
+  transition: background-color 0.3s ease-in-out;
+}
